@@ -35,7 +35,7 @@ function dateToTimestamp(date) {
  */
 function getTime(date) {
   const date1 = new Date(date);
-  return date1.toLocaleTimeString();
+  return date1.toLocaleTimeString('it-IT', { hour12: false });
 }
 
 /**
