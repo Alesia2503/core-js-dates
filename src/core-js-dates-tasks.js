@@ -51,7 +51,6 @@ function getTime(date) {
  */
 function getDayName(date) {
   const date1 = new Date(date);
-  date1.getDay();
   let days = '';
   switch (date1.getDay()) {
     case 0:
